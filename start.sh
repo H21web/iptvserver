@@ -5,4 +5,5 @@
 set -e
 PORT="${PORT:-5001}"
 echo "Starting JioTV Go on port $PORT"
-exec ./jiotv_go --skip-update-check serve --public --port "$PORT"
+exec ./jiotv_go serve --public --port "$PORT"
+
